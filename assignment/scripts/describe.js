@@ -29,7 +29,9 @@ if (number >= 2) {
 // Declare an empty variable called 'Dane'.
 // Set a condition to check if the value of 'name' is an exact match to 'Mary'
 // If this condition is true print 'Hi, Mary!' to the console.
+// name does not match 'Mary', move to else
 // If the condition is false print 'How do you do?' to the console.
+// name === 'Dane' is false, console will print 'How do you do?'
 
 //CODE
 /*
@@ -76,13 +78,15 @@ console.log(secret)
 // declare variable zip set to 55407
 
 // check if isStudent matches true and zip value is greater than 80000
-// print to console 'Youre a student on the west Coast!'
+// isStudent === true is ture, zip > 8000 is false
+// 'Youre a student on the west Coast!' does not print to console
 // check if isStudent matches false or age value is less than 30
-// print to console 'What are your hobbies?'
+// isStudent === false is false, age < 30 is false
+// 'What are your hobbies?' does not print to console
 // check if isStudent matches true
+// isStudent === true is true,
 // print to console 'Welcome to Prime!'
-// if there are any other results
-// print to console 'How about the weather?'
+// condition is satisfied, final else statement is not evaluated
 
 
 //CODE
@@ -149,7 +153,7 @@ let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
-  FIX - colorTwoe = 'purple'
+  FIX - colorTwo = 'purple'
 }
 */
 
@@ -165,7 +169,7 @@ FIX - if (temp > 39 && time >= 4)
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
-*/
+
 
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
 // We check if age is greater than or equal to minAge
